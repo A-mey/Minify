@@ -1,0 +1,28 @@
+{
+  "name": "@linclark/script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ameyfy": "./bin/index.js"
+  },
+  "author": "ameya",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^9.4.1",
+    "conf": "^10.2.0",
+    "figlet": "^1.5.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "uglify-js": "^3.17.4",
+    "uglifycss": "0.0.29",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.1"
+  }
+}
